@@ -1,0 +1,7 @@
+# Default values for nexus-chart.
+# This is a YAML-formatted file.
+
+nexusServiceName: nexus3
+hostname: default
+imageName: quay.io/REPLACE_QUAY_USER/nexus3:latest
+memoryLimit: 

@@ -1,0 +1,24 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: {{ .Values.nexusServiceName }}
+  name: {{ .Values.nexusServiceName }}
+spec:
+  host: {{ required ".Values.hostname is required!" .Values.hostname }}
+  port:
+    targetPort: 8081-tcp
+  to:
+    kind: Service
+    name: {{ .Values.nexusServiceName }}
+    weight: 100
+  wildcardPolicy: None
+status:
+  ingress:
+  - conditions:
+    - lastTransitionTime: 2017-11-29T16:57:34Z
+      status: "True"
+      type: Admitted
+    host: {{ required ".Values.hostname is required!" .Values.hostname }}
+    routerName: router
+    wildcardPolicy: None

@@ -1,0 +1,14 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: exoplanets-exochart
+spec:
+  replicas: 5
+  template:
+    spec:
+      containers:
+        - name: exochart
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "250m"
