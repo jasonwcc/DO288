@@ -21,4 +21,6 @@ Prerequisites
     RHCSA or higher is helpful for navigation and usage of the command line, but it is not required. 
 
 ## Stargazers over the century
-https://starchart.cc/jasonwcc/DO288
+
+[![Stargazers over time](https://starchart.cc/jasonwcc/DO288.svg)](https://starchart.cc/jasonwcc/DO288)
+
