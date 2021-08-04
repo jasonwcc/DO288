@@ -19,3 +19,6 @@ Prerequisites
     Either have completed the Introduction to Containers, Kubernetes, and Red Hat OpenShift course (DO180), or have equivalent knowledge.
 
     RHCSA or higher is helpful for navigation and usage of the command line, but it is not required. 
+
+## Stargazers over the century
+https://starchart.cc/jasonwcc/DO288
